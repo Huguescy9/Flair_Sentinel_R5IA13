@@ -1,0 +1,31 @@
+﻿sensor_id,sensor_type,unit,room,room_label,mac,ip,referent,gateway
+TMP-B101-A,temperature,°C,B101,Bureau 101,02:4E:56:00:01:39,10.42.1.11,Camille Laurent,GW-B1
+TMP-B101-B,temperature,°C,B101,Bureau 101,02:4E:56:00:02:34,10.42.1.12,Camille Laurent,GW-B1
+TMP-B101-C,temperature,°C,B101,Bureau 101,02:4E:56:00:03:10,10.42.1.13,Camille Laurent,GW-B1
+HUM-B101,humidity,%,B101,Bureau 101,02:4E:56:00:04:65,10.42.1.14,Camille Laurent,GW-B1
+CO2-B101,co2,ppm,B101,Bureau 101,02:4E:56:00:05:8E,10.42.1.15,Camille Laurent,GW-B1
+TMP-B102-A,temperature,°C,B102,Bureau 102,02:4E:56:01:06:D8,10.42.2.16,Nora Benali,GW-B1
+TMP-B102-B,temperature,°C,B102,Bureau 102,02:4E:56:01:07:34,10.42.2.17,Nora Benali,GW-B1
+TMP-B102-C,temperature,°C,B102,Bureau 102,02:4E:56:01:08:87,10.42.2.18,Nora Benali,GW-B1
+HUM-B102,humidity,%,B102,Bureau 102,02:4E:56:01:09:C1,10.42.2.19,Nora Benali,GW-B1
+CO2-B102,co2,ppm,B102,Bureau 102,02:4E:56:01:0A:B9,10.42.2.20,Nora Benali,GW-B1
+TMP-REU-A,temperature,°C,REU,Salle de réunion,02:4E:56:02:0B:94,10.42.3.21,Hugo Martin,GW-B1
+TMP-REU-B,temperature,°C,REU,Salle de réunion,02:4E:56:02:0C:E8,10.42.3.22,Hugo Martin,GW-B1
+TMP-REU-C,temperature,°C,REU,Salle de réunion,02:4E:56:02:0D:88,10.42.3.23,Hugo Martin,GW-B1
+HUM-REU,humidity,%,REU,Salle de réunion,02:4E:56:02:0E:57,10.42.3.24,Hugo Martin,GW-B1
+CO2-REU,co2,ppm,REU,Salle de réunion,02:4E:56:02:0F:70,10.42.3.25,Hugo Martin,GW-B1
+TMP-SRV-A,temperature,°C,SRV,Salle serveurs,02:4E:56:03:10:10,10.42.4.26,Léa Fontaine,GW-B2
+TMP-SRV-B,temperature,°C,SRV,Salle serveurs,02:4E:56:03:11:A1,10.42.4.27,Léa Fontaine,GW-B2
+TMP-SRV-C,temperature,°C,SRV,Salle serveurs,02:4E:56:03:12:EA,10.42.4.28,Léa Fontaine,GW-B2
+HUM-SRV,humidity,%,SRV,Salle serveurs,02:4E:56:03:13:86,10.42.4.29,Léa Fontaine,GW-B2
+CO2-SRV,co2,ppm,SRV,Salle serveurs,02:4E:56:03:14:70,10.42.4.30,Léa Fontaine,GW-B2
+TMP-ATL-A,temperature,°C,ATL,Atelier,02:4E:56:04:15:38,10.42.5.31,Yanis Robert,GW-B2
+TMP-ATL-B,temperature,°C,ATL,Atelier,02:4E:56:04:16:20,10.42.5.32,Yanis Robert,GW-B2
+TMP-ATL-C,temperature,°C,ATL,Atelier,02:4E:56:04:17:05,10.42.5.33,Yanis Robert,GW-B2
+HUM-ATL,humidity,%,ATL,Atelier,02:4E:56:04:18:88,10.42.5.34,Yanis Robert,GW-B2
+CO2-ATL,co2,ppm,ATL,Atelier,02:4E:56:04:19:E8,10.42.5.35,Yanis Robert,GW-B2
+TMP-HALL-A,temperature,°C,HALL,Hall d'accueil,02:4E:56:05:1A:5B,10.42.6.36,Inès Moreau,GW-B2
+TMP-HALL-B,temperature,°C,HALL,Hall d'accueil,02:4E:56:05:1B:65,10.42.6.37,Inès Moreau,GW-B2
+TMP-HALL-C,temperature,°C,HALL,Hall d'accueil,02:4E:56:05:1C:00,10.42.6.38,Inès Moreau,GW-B2
+HUM-HALL,humidity,%,HALL,Hall d'accueil,02:4E:56:05:1D:9D,10.42.6.39,Inès Moreau,GW-B2
+CO2-HALL,co2,ppm,HALL,Hall d'accueil,02:4E:56:05:1E:2B,10.42.6.40,Inès Moreau,GW-B2

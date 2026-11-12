@@ -1,0 +1,2 @@
+# Le lanceur Windows doit garder ses fins de ligne CRLF
+*.bat text eol=crlf

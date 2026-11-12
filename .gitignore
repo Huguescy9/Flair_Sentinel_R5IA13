@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# Journal produit pendant les essais : à versionner seulement pour figer une démo
+journal/*.jsonl
+resultats/*_en_cours.json
+.streamlit/secrets.toml

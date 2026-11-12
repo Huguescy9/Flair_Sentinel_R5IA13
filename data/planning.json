@@ -1,0 +1,38 @@
+[
+  {
+    "id": "PLN-01",
+    "type": "maintenance",
+    "titre": "Mise à jour firmware 2.4.0 des capteurs du Bureau 101",
+    "salle": "B101",
+    "capteurs": [
+      "TMP-B101-A",
+      "TMP-B101-B",
+      "TMP-B101-C",
+      "HUM-B101",
+      "CO2-B101"
+    ],
+    "debut": "2026-10-02T02:00:00Z",
+    "fin": "2026-10-02T02:45:00Z",
+    "effets_attendus": "Coupure de 30 à 45 minutes, redémarrage, compteur de séquence remis à 1, version firmware 2.4.0 ensuite."
+  },
+  {
+    "id": "PLN-02",
+    "type": "evenement",
+    "titre": "Réunion plénière (40 personnes) en salle de réunion",
+    "salle": "REU",
+    "capteurs": [],
+    "debut": "2026-10-02T09:30:00Z",
+    "fin": "2026-10-02T11:30:00Z",
+    "effets_attendus": "CO2 jusqu'à 2000 ppm, température +1 à +2 °C, humidité en hausse. Aérer après la réunion."
+  },
+  {
+    "id": "PLN-03",
+    "type": "maintenance",
+    "titre": "Nettoyage des filtres de climatisation de la salle serveurs",
+    "salle": "SRV",
+    "capteurs": [],
+    "debut": "2026-10-01T10:00:00Z",
+    "fin": "2026-10-01T11:00:00Z",
+    "effets_attendus": "Aucun effet attendu sur les mesures."
+  }
+]

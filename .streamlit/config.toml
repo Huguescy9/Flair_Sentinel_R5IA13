@@ -1,0 +1,14 @@
+# Thème sombre imposé : sans lui, un PC en thème clair affiche du texte sombre sur fond sombre.
+[theme]
+base = "dark"
+backgroundColor = "#0b1120"
+secondaryBackgroundColor = "#111827"
+textColor = "#f1f5f9"
+
+# Projet 100 % local : pas de statistiques envoyées à Streamlit...
+[browser]
+gatherUsageStats = false
+
+# ... et interface accessible depuis ce poste uniquement.
+[server]
+address = "localhost"
