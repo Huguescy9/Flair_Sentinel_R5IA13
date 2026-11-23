@@ -1,9 +1,69 @@
-# Thème sombre imposé : sans lui, un PC en thème clair affiche du texte sombre sur fond sombre.
+# Thème imposé (voir docs/design/DESIGN.md) : sans lui, l'affichage dépendrait du thème du PC.
+# Zone de contenu claire, barre latérale sombre ([theme.sidebar]).
 [theme]
-base = "dark"
-backgroundColor = "#0b1120"
-secondaryBackgroundColor = "#111827"
-textColor = "#f1f5f9"
+base = "light"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f4f5"
+textColor = "#1c1c1e"
+primaryColor = "#232325"
+borderColor = "#e5e5e5"
+showWidgetBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "Inter, 'Segoe UI', sans-serif"
+headingFont = "Inter, 'Segoe UI', sans-serif"
+headingFontWeights = [600, 500, 500, 500, 500, 500]
+linkColor = "#1d4ed8"
+dataframeHeaderBackgroundColor = "#ffffff"
+dataframeHeaderTextColor = "#6b6b6b"
+dataframeBorderColor = "#e5e5e5"
+# Couleurs de statut : l'orange de marque n'en fait pas partie
+redColor = "#b42318"
+redTextColor = "#b42318"
+redBackgroundColor = "#fdecea"
+blueColor = "#1d4ed8"
+blueTextColor = "#1d4ed8"
+blueBackgroundColor = "#e8f0fe"
+greenColor = "#1d7a5c"
+greenTextColor = "#1d7a5c"
+greenBackgroundColor = "#ddf5ec"
+yellowColor = "#8a5a00"
+yellowTextColor = "#8a5a00"
+yellowBackgroundColor = "#fff4d6"
+orangeColor = "#8a5a00"
+orangeTextColor = "#8a5a00"
+orangeBackgroundColor = "#fff4d6"
+
+# Police servie en local (static/fonts) : aucune requête vers Google Fonts
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-wght-normal.woff2"
+weight = "100 900"
+unicodeRange = "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-ext-wght-normal.woff2"
+weight = "100 900"
+unicodeRange = "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+
+[theme.sidebar]
+backgroundColor = "#2b2b2d"
+secondaryBackgroundColor = "#3a3a3c"
+textColor = "#d4d4d6"
+primaryColor = "#f25533"
+borderColor = "#3a3a3c"
+# Encadrés d'état lisibles sur fond sombre
+greenTextColor = "#7ee0bd"
+greenBackgroundColor = "#1f3a31"
+blueTextColor = "#a8c2fa"
+blueBackgroundColor = "#232f47"
+yellowTextColor = "#f5cf6e"
+yellowBackgroundColor = "#3d3422"
+orangeTextColor = "#f5cf6e"
+orangeBackgroundColor = "#3d3422"
+redTextColor = "#f5a8a0"
+redBackgroundColor = "#45252a"
 
 # Projet 100 % local : pas de statistiques envoyées à Streamlit...
 [browser]
@@ -12,3 +72,5 @@ gatherUsageStats = false
 # ... et interface accessible depuis ce poste uniquement.
 [server]
 address = "localhost"
+# Sert static/ (polices locales)
+enableStaticServing = true

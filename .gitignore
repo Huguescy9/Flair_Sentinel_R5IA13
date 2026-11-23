@@ -6,3 +6,5 @@ __pycache__/
 journal/*.jsonl
 resultats/*_en_cours.json
 .streamlit/secrets.toml
+# Captures de produits tiers servant de références visuelles : gardées sur le poste
+docs/design/refs/
